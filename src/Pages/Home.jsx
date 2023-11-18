@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Home = () => {
   const [comicText, setComicText] = useState("");
   const [comicImages, setComicImages] = useState([
-    "https://plus.unsplash.com/premium_photo-1661844541352-3b97b83f3edb?q=80&w=1905&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://images.unsplash.com/photo-1601645191163-3fc0d5d64e35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29taWN8ZW58MHx8MHx8fDA%3D",
   ]);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false); // New state variable for loading
@@ -65,8 +65,7 @@ const Home = () => {
         }}
       >
         <img
-          src="https://images.unsplash.com/photo-1618519764620-7403abdbdfe9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt=""
+          src="https://images.unsplash.com/photo-1519563552094-a0f48181d523?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D""
         />
       </div>
       <div style={{ position: "relative" }}>
